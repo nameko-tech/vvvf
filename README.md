@@ -8,6 +8,6 @@
 #### コマンド
 
 - `esptool.py chip_id` でポート確認
-- `ampr -p COM3 ls` でボードの中を見る (COM3 は上で確認したポート)
-- `ampr -p COM3 -b 115200 put main.py` で書き込む
-- `ampr -p COM3 -b 115200 rm main.py` で消せる
+- `ampy -p COM3 ls` でボードの中を見る (COM3 は上で確認したポート)
+- `ampy -p COM3 -b 115200 put main.py` で書き込む
+- `ampy -p COM3 -b 115200 rm main.py` で消せる
